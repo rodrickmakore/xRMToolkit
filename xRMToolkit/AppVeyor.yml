@@ -13,7 +13,8 @@ os: WMF 5
 skip_commits:
   message: /updated readme.*|update readme.*s/
 
-build: false
+build: 
+  project: xRMToolkit.sln
 
 #Kick off the CI/CD pipeline
 test_script:
